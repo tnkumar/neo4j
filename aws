@@ -1,0 +1,13 @@
+Launch neo4j community edition from AWS market place
+From chrome, navigate to https://instance-ip-address:7473/
+username - neo4j, password - instance ID
+Associate the Route 53 DNS with the IP address of the neo4j instance
+putty into the neo4j instance
+Follow instructions from https://medium.com/neo4j/getting-certificates-for-neo4j-with-letsencrypt-a8d05c415bbd
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install -y certbot
+sudo certbot certonly
+e-mail address: as in AWS account
