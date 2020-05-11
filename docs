@@ -1,0 +1,16 @@
+cypher queries
+multi-line editing <shift-enter>
+run query <ctrl-enter>
+:clear // clears the stream
+graph database has nodes, relationships and properties
+nodes can be grouped by applying labels to members
+relationships connects nodes in a graph and have a direction
+In a property graph, relationships have properties
+:help commands
+:help keys
+:sysinfo
+:history
+:help play
+CALL db.schema.visualization()
+MATCH (n:Person) RETURN n // for movie graph
+CALL db.propertyKeys
